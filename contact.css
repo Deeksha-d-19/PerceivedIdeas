@@ -1,0 +1,269 @@
+*
+{
+	margin: 0;
+	padding: 0;
+  font-family: 'Merriweather', serif;
+}
+/*-----------Navigation-----------*/
+#nav-bar
+{
+	position:relative;
+	top: 0;
+}
+.navbar-brand img
+{
+	height: 80px;
+	padding-left: 10px;
+}
+.navbar-nav li
+{
+	padding: 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color:#007bff!important;
+}
+.navbar
+{
+	background: #211e1e;
+}
+.navbar-toggler
+{
+		border: none!important;
+}
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*--------Contact us----------*/
+.contact-for
+{
+  background:url(img/contact1.jpg);
+  transition: all 4s ease-in-out;
+  background-position: center;
+}
+.deek{
+  text-align:center;
+  font-weight: bold;
+  padding-top:10px;
+  color:white;
+  text-shadow: 4px 2px 4px #000000;
+}
+.contact-form
+{
+   border: 1px black;
+   border-radius: 8px;
+}
+form
+{
+	 width: 600px;
+   margin: 0 auto;
+   border: 2px solid black;
+ 	 border-radius: 8px;
+}
+.form-control
+{
+	width: 600px;
+  margin-top: 05px;
+	background:solid;
+  color:black;
+	border:2px solid black;
+	outline: none;
+  border-radius: 10px;
+  height: 45px;	
+}
+input
+{
+	height: 55px;
+  border: 1px grey;
+  background-color: lightyellow;
+  border-radius: 12px;
+}
+.form-control-submit
+{
+  width: 600px;
+  background:#FFA500;
+	border-color: transparent;
+	color: #fff; 
+	font-size: 21px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+  margin-bottom: 30px;
+  border:none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 4px 2px 4px #000000;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+form .form-control-submit:hover
+{
+	background-color: green;
+	cursor: pointer;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
+}
+.textarea
+{
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+/*footer*/
+.site-footer
+{
+  background-color:#211e1e;
+  padding:45px 0 20px; /*space around element*/
+  font-size:15px;
+  line-height:24px;
+  color:#ffffff;
+}
+.site-footer hr
+{
+  border-top-color:#ffffff;
+  opacity:0.5;
+}
+.site-footer hr.small
+{
+  margin:20px 0;
+}
+.site-footer h6
+{
+  color:#ffffff;
+  font-size:16px;
+  font:bold;
+  text-transform: uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#ffffff;
+}
+.site-footer a:hover
+{
+  color:#007bff;
+  text-decoration:none;
+}
+
+.site-footer .social-icons
+{
+  text-align:right;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  align-items: center;
+  border-radius:100%;
+  background-color:#33353d;
+}
+.copyright-text
+{
+  margin:0;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:768px)
+{
+  .site-footer
+  {
+    padding-bottom:0;
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align: center;
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#ffffff;
+  font-weight:700;
+  font-size:14px
+}
+.social-icons a{
+  background-color:#ffffff;
+  color:#ffffff;
+  font-size:16px;
+  display:inline-block;
+  line-height:auto;
+  width:44px;
+  height:40px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe;
+}
+.social-icons.size-sm a
+{
+  line-height:30px;
+  height:3px;
+  width:33px;
+  font-size:12px
+}
+.social-icons a.github:hover
+{
+  background-color:#c70000
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600;
+  }
+}
