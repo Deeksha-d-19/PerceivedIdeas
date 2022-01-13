@@ -1,52 +1,96 @@
 *
 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   font-family: 'Merriweather', serif;
   box-sizing: border-box;
 }
 /*-----------Navigation-----------*/
 #nav-bar
 {
-	position:relative;
+  position:relative;
   top: 0;
   z-index: 10;
 }
 .navbar-brand img
 {
-	height: 80px;
-	padding-left: 10px;
+  height: 80px;
+  padding-left: 10px;
 }
 .navbar-nav li
 {
-	padding: 10px;
+  padding: 10px;
 }
 .navbar-nav li a
 {
-	float: right;
-	text-align: left;
+  float: right;
+  text-align: left;
 }
 #nav-bar ul li a:hover
 {
-	color:#007bff !important;
+  color:#007bff!important;
 }
 .navbar
 {
-	background: #211e1e;
+  background: #211e1e;
 }
 .navbar-toggler
 {
-		border: white;
-    color:#ffffff;
+  border: none!important;
 }
-.navbar-toggler-icon{
-  color: white;
+.navbar-toggler collapse{
+  color:#211e1e ;
 }
 .nav-link
 {
-	color: #ffffff!important;
-	font-weight: 600;
-	font-size: 16px;
+  color: #ffffff!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.collapse navbar-collapse{
+  color:#211e1e ;
+}
+.img-text {
+  width: 100%;
+  display: block;
+}
+.photo,
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.photo {
+  width: 40%;
+}
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  width: 60%;
+  padding: 15px;
+}
+.nave{
+  background:url(img/deekuu.jpg);
+  box-sizing: border-box;
+width: 100%;
+height: auto;
+padding:20px;
+border: 1px solid black;
+background-size: 100% 100%;
+}
+.box{
+  background-color:burlywood;
+  width:650px;
+  background-repeat: none;
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  box-shadow: 0 0 0 2;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius: 5px;
+  border:1px solid black;
 }
 .carousel-inner img{
   width:auto;
@@ -120,7 +164,7 @@ button:hover{
   margin: 4px 2px;
   cursor: pointer;
   text-decoration: none;
-  border-radius:15px;
+  border-radius:20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #mom.button{
@@ -249,26 +293,26 @@ a.mee{
 }
 #slider
 {
-	width:100%;
+  width:100%;
 }
 #nav{
   background:url('https://www.djmathtutoring.ca/wp-content/uploads/2015/12/about-me-background.jpg');
 }
 .carousel-caption
 {
-	top: 32%;
-	transform: translateY(-50%);
-	bottom:initial!important;
-	text-shadow: 2px;
+  top: 40%;
+  transform: translateY(-50%);
+  bottom:initial!important;
+  text-shadow: 2px;
 }
 .carousel-inner
 {
-	height:575px;
+  height:575px;
 }
 .carousel-caption h5
 {
-	color:#fff;
-	font-size: 42px;
+  color:#fff;
+  font-size: 42px;
 }
 #huhu{
   margin: 0;
@@ -300,26 +344,26 @@ a.mee{
 /*--------About----------*/
 #about
 {
-	padding-top:50px;
-	padding-bottom: 50px;
-	color: #555;
+  padding-top:50px;
+  padding-bottom: 50px;
+  color: #555;
 }
 #about.btn
 {
-	margin-top: 20px;
-	margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .about-content
 {
-	padding-top:10px;
+  padding-top:10px;
 }
 .about-content img
 {
-	height: 300px;
-	padding-left: 50px;
-	left: 50px;
-	padding-right: 30px;
-	
+  height: 300px;
+  padding-left: 50px;
+  left: 50px;
+  padding-right: 30px;
+  
 }
 /*-------------Footer---------*/
 .container{
@@ -327,11 +371,11 @@ a.mee{
   padding-right: 20px;
   height:130px;
 }
+
 .site-footer
 {
   background-color:#211e1e;
-  padding-left:20px;
-  padding-right: 20px;
+  padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#ffffff;
@@ -343,7 +387,7 @@ a.mee{
 }
 .site-footer hr.small
 {
-  margin:0;
+  margin:20px 0;
 }
 .site-footer h6
 {
@@ -363,28 +407,7 @@ a.mee{
   color:#007bff;
   text-decoration:none;
 }
-.footer-links
-{
-  padding-left:0;
-  list-style:none;
-}
-.footer-links li
-{
-  display:block;
-}
-.footer-links a
-{
-  color:#ffffff;
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
+
 .site-footer .social-icons
 {
   text-align:right
